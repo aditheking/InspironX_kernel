@@ -222,16 +222,13 @@ config CPU_FREQ_GOV_YANKACTIVE
 
 config CPU_FREQ_GOV_SMARTMAX
            tristate "'smartmax' cpufreq governor"
-<<<<<<< HEAD
            depends on CPU_FREQ
            help
              smartmax' - a "smart" optimized governor!
-=======
           depends on CPU_FREQ
          help
             smartmax' - a "smart" optimized governor!
->>>>>>> 1df1372c... add yankactive and smartmax(special thanks @hurtsky)
-
+	    
 config CPU_FREQ_GOV_ONDEMAND
 	tristate "'ondemand' cpufreq policy governor"
 	select CPU_FREQ_TABLE
